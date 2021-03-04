@@ -1,0 +1,136 @@
+h1{
+    text-align: center;
+}
+@media(min-width:992px){
+   .first{
+     width: 28%;
+     background-color: gray;
+     border: 3px solid black;
+     float: left;
+     text-align: justify;
+     height: 80%;
+   }
+   .second{
+    width: 28%;
+    background-color: gray;
+    border: 3px solid black;
+    float: left;
+    margin-left: 8%;
+    text-align: justify;
+    height: 80%;
+   }
+   .third{
+    width: 28%;
+    background-color: gray;
+    border: 3px solid black;
+    float: right;
+    text-align: justify;
+    height: 80%;
+   }
+   .Chicken{
+       background-color: #db998f;
+       border: 3px solid black;
+       border-top: 0px;
+       text-align: center;
+       width: 20%;
+       margin-left: 79%;
+       font-size: 100%;  
+   }
+   .Beef{
+    text-align: center;
+    background-color: #c73620;
+    color: white;
+    border: 3px solid black;
+    border-top: 0px;
+    margin-left: 84%;
+    width: 15%;
+}
+.Shushi{
+    text-align: center;
+    background-color:#bdbd66;
+    border: 3px solid black;
+    border-top: 0px;
+    width: 15%;
+    margin-left: 84%;
+    font-size: 90%;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+    .first{
+        width: 45%;
+        background-color: gray;
+        border: 3px solid black;
+        text-align: justify;
+        padding: 5px;
+        /* float: left; */
+    }
+    .second{
+        width: 45%;
+        background-color: gray;
+        border: 3px solid black;
+        text-align: justify;
+        padding: 5px;
+        /* float:left; */
+    }
+    .third{
+        width: 100%;
+        background-color: gray;
+        border: 3px solid black;
+        text-align: justify;
+        padding: 5px;
+        float: none;
+    }
+    
+}
+@media(max-width:767px){
+    .first{
+        width: 28%;
+        background-color: gray;
+        border: 3px solid black;
+        text-align: justify;
+        height: 80%;
+        margin-bottom: 10px;
+      }
+      .second{
+       width: 28%;
+       background-color: gray;
+       border: 3px solid black;
+       text-align: justify;
+       height: 80%;
+       margin-bottom: 10px;
+      }
+      .third{
+       width: 28%;
+       background-color: gray;
+       border: 3px solid black;
+       text-align: justify;
+       height: 80%;
+      }
+      .Chicken{
+          background-color: #db998f;
+          border: 3px solid black;
+          border-top: 0px;
+          text-align: center;
+          width: 25%;
+          margin-left: 73%;
+          font-size: 100%;  
+      }
+      .Beef{
+       text-align: center;
+       background-color: #c73620;
+       color: white;
+       border: 3px solid black;
+       border-top: 0px;
+       margin-left: 79%;
+       width: 20%;
+   }
+   .Shushi{
+       text-align: center;
+       background-color:#bdbd66;
+       border: 3px solid black;
+       border-top: 0px;
+       width: 20%;
+       margin-left: 79%;
+       font-size: 90%;
+   }
+}
