@@ -61,8 +61,10 @@ h1{
         background-color: gray;
         border: 3px solid black;
         text-align: justify;
+        margin-bottom:3%;
+        margin-right:3%;
         padding: 5px;
-        /* float: left; */
+        float: left; 
     }
     .second{
         width: 45%;
@@ -70,16 +72,43 @@ h1{
         border: 3px solid black;
         text-align: justify;
         padding: 5px;
-        /* float:left; */
+        float:left;
     }
     .third{
-        width: 100%;
+        width: 95%;
         background-color: gray;
         border: 3px solid black;
         text-align: justify;
         padding: 5px;
-        float: none;
+        cleat:left;
     }
+    .Chicken{
+          background-color: #db998f;
+          border: 3px solid black;
+          border-top: 0px;
+          text-align: center;
+          width: 25%;
+          margin-left: 73%;
+          font-size: 100%;  
+      }
+      .Beef{
+       text-align: center;
+       background-color: #c73620;
+       color: white;
+       border: 3px solid black;
+       border-top: 0px;
+       margin-left: 79%;
+       width: 20%;
+   }
+   .Shushi{
+       text-align: center;
+       background-color:#bdbd66;
+       border: 3px solid black;
+       border-top: 0px;
+       width: 20%;
+       margin-left: 79%;
+       font-size: 90%;
+   }
     
 }
 @media(max-width:767px){
