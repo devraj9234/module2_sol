@@ -82,34 +82,7 @@ h1{
         padding: 5px;
         cleat:left;
     }
-    .Chicken{
-          background-color: #db998f;
-          border: 3px solid black;
-          border-top: 0px;
-          text-align: center;
-          width: 25%;
-          margin-left: 73%;
-          font-size: 100%;  
-      }
-      .Beef{
-       text-align: center;
-       background-color: #c73620;
-       color: white;
-       border: 3px solid black;
-       border-top: 0px;
-       margin-left: 79%;
-       width: 20%;
-   }
-   .Shushi{
-       text-align: center;
-       background-color:#bdbd66;
-       border: 3px solid black;
-       border-top: 0px;
-       width: 20%;
-       margin-left: 79%;
-       font-size: 90%;
-   }
-    
+
 }
 @media(max-width:767px){
     .first{
